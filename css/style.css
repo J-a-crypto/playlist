@@ -1,12 +1,17 @@
 h1 {
   text-align: center;
+  border-bottom: 5px solid #707793;
+  color: #3BBA9C;
 }
 
 .display {
   display: flex;
   justify-content: center;
-  border-top: 5px solid black;
-  border-bottom: 5px solid black;
+  border-top: 5px solid #707793;
+  border-bottom: 5px solid #707793;
+  background-color: #3BBA9C;
+  border-left: 10px solid #707793;
+  border-right: 10px solid #707793;
 }
 
 .column {
@@ -47,10 +52,11 @@ h1 {
   height: 100px;
   font-weight: bold;
   margin: 20px;
+  width: 20px;
 }
 
 .form {
-  width: 75%;
+  width: 60%;
   margin: 0 auto 20px auto;
   font-size: 18px;
 }
@@ -63,4 +69,7 @@ input {
 button {
   font-size: 14px;
   padding: 5px 10px;
+}
+body {
+  background-color: #2E3047;
 }
